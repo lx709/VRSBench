@@ -79,12 +79,11 @@ The dataset is released under the [Creative Commons Attribution Non Commercial 4
 ## 📜 Citation
 
 ```bibtex
-@misc{li2024vrsbench,
+@article{li2024vrsbench,
       title={VRSBench: A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding}, 
       author={Xiang Li, Jian Ding, Mohamed Elhoseiny},
       year={2024},
-      eprint={xxx},
-      archivePrefix={arXiv},
+      journal={arXiv preprint arXiv:2406.12384},
       primaryClass={cs.CV}
 }  
 ```
