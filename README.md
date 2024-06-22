@@ -38,7 +38,6 @@ Use the ```prepare_geochat_eval_all.ipynb``` to prepare the VRSBench evaluation 
 
 ## Benchmark Results
 ### Image Captioning Results
-
 | Method                   | BLEU-1 | BLEU-2 | BLEU-3 | BLEU-4 | METEOR | ROUGE_L | CIDEr | Avg_L |
 |--------------------------|--------|--------|--------|--------|--------|---------|-------|-------|
 | GeoChat w/o ft       | 13.9   | 6.6    | 3.0    | 1.4    | 7.8    | 13.2    | 0.4   | 36    |
@@ -51,7 +50,6 @@ Mini-Gemini     | 47.6   | 31.1   | 20.9   | 14.3   | 21.5   | 36.8    | 33.5  |
 **Caption**: Detailed image caption performance on the VRSBench dataset. Avg\_L denotes the average word length of generated captions.
 
 ### Object Referring Results
-
 | Method                        | Unique       |          | Non Unique  |          | All       |          |
 |-------------------------------|--------------|----------|-------------|----------|-----------|----------|
 |                               | Acc@0.5      | Acc@0.7  | Acc@0.5     | Acc@0.7  | Acc@0.5   | Acc@0.7  |
@@ -64,6 +62,8 @@ Mini-Gemini     | 47.6   | 31.1   | 20.9   | 14.3   | 21.5   | 36.8    | 33.5  |
 
 **Caption**: Visual grounding performance on the VRSBench dataset. 
 
+
+### Visual Question Answering Results
 | Method                  | Category | Presence | Quantity | Color | Shape | Size | Position | Direction | Scene | Reasoning | Avg.  |
 |-------------------------|----------|----------|----------|-------|-------|------|----------|-----------|-------|-----------|-------|
 | # VQAs                  | 5435     | 7789     | 6374     | 3550  | 1422  | 1011 | 5829     | 477       | 4620  | 902       |       |
@@ -75,9 +75,6 @@ Mini-Gemini     | 47.6   | 31.1   | 20.9   | 14.3   | 21.5   | 36.8    | 33.5  |
 | Mini-Gemini         | 58.7     | 89.4     | 50.0     | 57.9  | 57.9  | 53.7 | 54.8     | 50.1      | 65.0  | 64.3      | 60.2  |
 
 **Caption**: Visual question answering performance on the {\papernameAbbrev} dataset. Rows in bold indicate newly added results.
-
-
-### Visual Question Answering Results
 
 ## Licensing Information
 The dataset is released under the [CC-BY-4.0]([https://creativecommons.org/licenses/by-nc/4.0/deed.en](https://creativecommons.org/licenses/by/4.0/deed.en)), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
@@ -92,6 +89,10 @@ The dataset is released under the [CC-BY-4.0]([https://creativecommons.org/licen
   year={2024}
 }
 ```
+
+## Related Projects
+- RSGPT. The first GPT-based Large Vision-Language Model in remote sensing. [RSGPT](https://github.com/Lavender105/RSGPT) 
+- Survey. A comprehensive survey about vision-language models in remote sensing. [RSVLM](https://arxiv.org/pdf/2305.05726.pdf).
 
 ## 🙏 Acknowledgement
 Our VRSBench dataset is built based on [DOTA-v2](https://captain-whu.github.io/DOTA/dataset.html) and [DIOR](https://gcheng-nwpu.github.io/#Datasets) datasets.
