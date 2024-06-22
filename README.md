@@ -80,19 +80,17 @@ Mini-Gemini     | 47.6   | 31.1   | 20.9   | 14.3   | 21.5   | 36.8    | 33.5  |
 ### Visual Question Answering Results
 
 ## Licensing Information
-The dataset is released under the [Creative Commons Attribution Non Commercial 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+The dataset is released under the [CC-BY-4.0]([https://creativecommons.org/licenses/by-nc/4.0/deed.en](https://creativecommons.org/licenses/by/4.0/deed.en)), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
 
 ## 📜 Citation
 
 ```bibtex
-@misc{li2024vrsbench,
-      title={VRSBench: A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding}, 
-      author={Xiang Li, Jian Ding, Mohamed Elhoseiny},
-      year={2024},
-      eprint={xxx},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}  
+@article{li2024vrsbench,
+  title={VRSBench: A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding},
+  author={Xiang Li, Jian Ding, and Mohamed Elhoseiny},
+  journal={arXiv:2406.12384},
+  year={2024}
+}
 ```
 
 ## 🙏 Acknowledgement
