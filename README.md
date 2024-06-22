@@ -1,4 +1,10 @@
 
+<font size='5'>**VRSBench: A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding**</font>
+
+Xiang Li, Jian Ding, Mohamed Elhoseiny
+
+<a href='https://vrsbench.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/abs/2406.12384'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>  <a href='https://huggingface.co/datasets/xiang709/VRSBench'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'>
+
 # VRSBench
 <center>
     <img src="fig_example.png" alt="VRSBench is a Versatile Vision-Language Benchmark for Remote Sensing Image Understanding.">
@@ -79,11 +85,12 @@ The dataset is released under the [Creative Commons Attribution Non Commercial 4
 ## 📜 Citation
 
 ```bibtex
-@article{li2024vrsbench,
+@misc{li2024vrsbench,
       title={VRSBench: A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding}, 
       author={Xiang Li, Jian Ding, Mohamed Elhoseiny},
       year={2024},
-      journal={arXiv preprint arXiv:2406.12384},
+      eprint={xxx},
+      archivePrefix={arXiv},
       primaryClass={cs.CV}
 }  
 ```
