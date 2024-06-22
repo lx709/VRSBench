@@ -5,6 +5,14 @@ Xiang Li, Jian Ding, Mohamed Elhoseiny
 
 <a href='https://vrsbench.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/abs/2406.12384'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>  <a href='https://huggingface.co/datasets/xiang709/VRSBench'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'>
 
+<font size='5'>**RSGPT: A Remote Sensing Vision Language Model and Benchmark**</font>
+
+[Yuan Hu](https://scholar.google.com.sg/citations?user=NFRuz4kAAAAJ&hl=zh-CN), Jianlong Yuan, Congcong Wen, Xiaonan Lu, [Xiang Li☨](https://xiangli.ac.cn)
+
+<!-- <a href='https://rsgpt.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  -->
+<a href='https://arxiv.org/abs/2307.15266'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+
+
 # VRSBench
 <center>
     <img src="fig_example.png" alt="VRSBench is a Versatile Vision-Language Benchmark for Remote Sensing Image Understanding.">
