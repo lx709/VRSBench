@@ -79,6 +79,10 @@ Mini-Gemini     | 47.6   | 31.1   | 20.9   | 14.3   | 21.5   | 36.8    | 33.5  |
 ## Licensing Information
 The dataset is released under the [CC-BY-4.0]([https://creativecommons.org/licenses/by-nc/4.0/deed.en](https://creativecommons.org/licenses/by/4.0/deed.en)), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
 
+## Related Projects
+- RSGPT. The first GPT-based Large Vision-Language Model in remote sensing. [RSGPT](https://github.com/Lavender105/RSGPT) 
+- Survey. A comprehensive survey about vision-language models in remote sensing. [RSVLM](https://arxiv.org/pdf/2305.05726.pdf).
+- MiniGPT-v2. [MiniGPT-v2](https://github.com/Vision-CAIR/MiniGPT-4)
 ## 📜 Citation
 
 ```bibtex
@@ -89,10 +93,6 @@ The dataset is released under the [CC-BY-4.0]([https://creativecommons.org/licen
   year={2024}
 }
 ```
-
-## Related Projects
-- RSGPT. The first GPT-based Large Vision-Language Model in remote sensing. [RSGPT](https://github.com/Lavender105/RSGPT) 
-- Survey. A comprehensive survey about vision-language models in remote sensing. [RSVLM](https://arxiv.org/pdf/2305.05726.pdf).
 
 ## 🙏 Acknowledgement
 Our VRSBench dataset is built based on [DOTA-v2](https://captain-whu.github.io/DOTA/dataset.html) and [DIOR](https://gcheng-nwpu.github.io/#Datasets) datasets.
