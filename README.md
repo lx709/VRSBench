@@ -9,8 +9,7 @@ Xiang Li, Jian Ding, Mohamed Elhoseiny
 
 [Yuan Hu](https://scholar.google.com.sg/citations?user=NFRuz4kAAAAJ&hl=zh-CN), Jianlong Yuan, Congcong Wen, Xiaonan Lu, [Xiang Li☨](https://xiangli.ac.cn)
 
-<!-- <a href='https://rsgpt.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  -->
-<a href='https://arxiv.org/abs/2307.15266'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<a href='https://rsgpt.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/abs/2307.15266'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
 
 # VRSBench
