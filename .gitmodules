@@ -1,3 +1,6 @@
 [submodule "eval_fianl/caption_eval"]
 	path = eval_fianl/caption_eval
 	url = https://github.com/vsubhashini/caption-eval.git
+[submodule "eval_fianl/BboxToolkit"]
+	path = eval_fianl/BboxToolkit
+	url = https://github.com/jbwang1997/BboxToolkit
