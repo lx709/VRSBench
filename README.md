@@ -105,6 +105,7 @@ The dataset is released under the [CC-BY-4.0]([https://creativecommons.org/licen
 - RS-CLIP. A CLIP-based Vision-Language Model for remote sensing scene classification. [RS-CLIP](https://www.sciencedirect.com/science/article/pii/S1569843223003217) 
 - Survey. A comprehensive survey about vision-language models in remote sensing. [RSVLM](https://arxiv.org/pdf/2305.05726.pdf).
 - MiniGPT-v2. [MiniGPT-v2](https://github.com/Vision-CAIR/MiniGPT-4)
+- https://github.com/DavidMChan/clair. Automatic GPT-based caption evaluation.
 
 ## 📜 Citation
 
