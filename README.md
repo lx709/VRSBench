@@ -61,14 +61,14 @@ Use the ```prepare_geochat_eval_all.ipynb``` to prepare the VRSBench evaluation 
 The code and checkpoints of baseline models  can be found at [GDrive](https://drive.google.com/drive/folders/1Z6W-Wq-NwKr6UwkZrwgL0NxzrZas0qPI?usp=sharing).
 
 ### Image Captioning Performance
-| Method                   | BLEU-1 | BLEU-2 | BLEU-3 | BLEU-4 | METEOR | ROUGE_L | CIDEr | Avg_L |
-|--------------------------|--------|--------|--------|--------|--------|---------|-------|-------|
-| GeoChat w/o ft       | 13.9   | 6.6    | 3.0    | 1.4    | 7.8    | 13.2    | 0.4   | 36    |
-| GPT-4V               | 37.2   | 22.5   | 13.7   | 8.6    | 20.9   | 30.1    | 19.1  | 67    |
-| MiniGPT-v2           | 36.8   | 22.4   | 13.9   | 8.7    | 17.1   | 30.8    | 21.4  | 37    |
-| LLaVA-1.5            | **48.1** | **31.5** | **21.2** | **14.7** | **21.9** | **36.9** | **33.9** | 49    |
-| GeoChat              | 46.7   | 30.2   | 20.1   | 13.8   | 21.1   | 35.2    | 28.2  | 52    |
-Mini-Gemini     | 47.6   | 31.1   | 20.9   | 14.3   | 21.5   | 36.8    | 33.5  | 47    |
+| Method                   | BLEU-1 | BLEU-2 | BLEU-3 | BLEU-4 | METEOR | ROUGE_L | CIDEr | CLAIR  | Avg_L |
+|--------------------------|--------|--------|--------|--------|--------|---------|-------|-------|-------|
+| GeoChat w/o ft       | 13.9   | 6.6    | 3.0    | 1.4    | 7.8    | 13.2    | 0.4   | 0.42  | 36    |
+| GPT-4V               | 37.2   | 22.5   | 13.7   | 8.6    | 20.9   | 30.1    | 19.1  | **0.83**  | 67    |
+| MiniGPT-v2           | 36.8   | 22.4   | 13.9   | 8.7    | 17.1   | 30.8    | 21.4  | 0.73  | 37    |
+| LLaVA-1.5            | **48.1** | **31.5** | **21.2** | **14.7** | **21.9** | **36.9** | **33.9** | 0.78  | 49    |
+| GeoChat              | 46.7   | 30.2   | 20.1   | 13.8   | 21.1   | 35.2    | 28.2  | 0.77 | 52    |
+Mini-Gemini     | 47.6   | 31.1   | 20.9   | 14.3   | 21.5   | 36.8    | 33.5  | 0.77  | 47    |
 
 **Caption**: Detailed image caption performance on the VRSBench dataset. Avg\_L denotes the average word length of generated captions.
 
