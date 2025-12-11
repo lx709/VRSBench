@@ -95,10 +95,11 @@ Mini-Gemini     | 47.6   | 31.1   | 20.9   | 14.3   | 21.5   | 36.8    | 33.5  |
 | GeoChat        | 86.5     | 92.1     | 56.3     | 70.1  | 73.8  | 60.4 | 69.3     | 53.5      | 83.7  | 73.5      | 76.0  |
 | Mini-Gemini    | 87.8     | 92.1     | 58.8     | 74.0  | 75.3  | 58.0 | 68.0     | 56.7      | 83.2  | 74.4      | 77.8  |
 
-**Caption**: Visual question answering performance on the VRSBench dataset. Boldface indicates the best performance. Note that different from our initial submission, we use a GPT-based evaluation protocol in our final version. GPT-based evaluation can better account for synonyms in open-set VQA.
+**Caption**: Visual question answering performance on the VRSBench dataset. Boldface indicates the best performance. Note that, different from our initial submission, we use a GPT-based evaluation protocol in our final version. GPT-based evaluation can better account for synonyms in open-set VQA.
 
 ## Licensing Information
-The dataset is released under the [CC-BY-4.0]([https://creativecommons.org/licenses/by-nc/4.0/deed.en](https://creativecommons.org/licenses/by/4.0/deed.en)), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+Our text annotations are released under the [CC-BY-4.0]([https://creativecommons.org/licenses/by-nc/4.0/deed.en](https://creativecommons.org/licenses/by/4.0/deed.en)), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+Note: part of the images are borrowed from [DOTA](https://captain-whu.github.io/DOTA/dataset.html) dataset. All images and their associated annotations in DOTA can be used for academic purposes only, but any commercial use is prohibited.
 
 ## Related Projects
 - RSGPT. The first GPT-based Large Vision-Language Model in remote sensing. [RSGPT](https://github.com/Lavender105/RSGPT)
@@ -121,4 +122,5 @@ The dataset is released under the [CC-BY-4.0]([https://creativecommons.org/licen
 Our VRSBench dataset is built based on [DOTA-v2](https://captain-whu.github.io/DOTA/dataset.html) and [DIOR](https://gcheng-nwpu.github.io/#Datasets) datasets.
 
 We are thankful to [LLaVA-1.5](https://github.com/haotian-liu/LLaVA), [MiniGPT-v2](https://github.com/Vision-CAIR/MiniGPT-4), [Mini-Gemini](https://github.com/dvlab-research/MGM), and [GeoChat](https://github.com/mbzuai-oryx/GeoChat) for releasing their models and code as open-source contributions.
+
 
