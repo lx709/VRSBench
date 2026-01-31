@@ -445,7 +445,7 @@ def main():
                 'flag': bool(is_exclude),
             }
 
-            if i<=max_input_objects:
+            if i<max_input_objects:
                 if is_exclude==False:
                     per_img_valid += 1
                 
