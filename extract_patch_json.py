@@ -76,8 +76,8 @@ def box_close(bbox1, bbox2, dist_thres=0.1, use_obb=False):
 
 def get_size_from_points(bbox, image_shape, use_obb=True):
     bbox = bbox.copy()
-    bbox[::2] = bbox[::2] # use absolute coordinates
-    bbox[1::2] = bbox[1::2]
+    bbox[::2] = bbox[::2] * image_shape[1] # use absolute coordinates
+    bbox[1::2] = bbox[1::2] * image_shape[0]
     if len(bbox)==4:
         xmin,ymin,xmax,ymax = bbox
         area = (xmax-xmin)*(ymax-ymin)
@@ -317,8 +317,8 @@ def main():
         for cat in categories:
             cat_cnt[cat] = np.sum(labels==categories.index(cat))
 
-        bboxes[::2] = bboxes[::2]/image_shape[1]
-        bboxes[1::2] = bboxes[1::2]/image_shape[0]
+        bboxes[:,::2] = bboxes[:,::2]/image_shape[1]
+        bboxes[:,1::2] = bboxes[:,1::2]/image_shape[0]
         
         for i, (bbox, label) in enumerate(zip(bboxes, labels)):
             
@@ -328,9 +328,9 @@ def main():
             x1,y1,x2,y2,x3,y3,x4,y4 = map(float, [x1,y1,x2,y2,x3,y3,x4,y4])
             # horizontal bounding box
             xmin = max(min(x1,x2,x3,x4), 0)
-            xmax = min(max(x1,x2,x3,x4), image_shape[1])
+            xmax = min(max(x1,x2,x3,x4), 1)
             ymin = max(min(y1,y2,y3,y4), 0)
-            ymax = min(max(y1,y2,y3,y4), image_shape[0])
+            ymax = min(max(y1,y2,y3,y4), 1)
 
             # determine is the object the unique one in this category
             is_unique = np.sum(labels==label)==1
@@ -600,7 +600,7 @@ def main():
             # Displaying the image  
             cv2.imwrite(os.path.join(output_root, file), image)  
             print('Per image number of referred objects: ', count_output)
-            all_count_output + count_output
+            all_count_output += count_output
 
     print('All images number of referred objects: ', all_count_output)
         
