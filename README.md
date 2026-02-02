@@ -5,6 +5,8 @@ Xiang Li, Jian Ding, Mohamed Elhoseiny
 
 <a href='https://vrsbench.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/abs/2406.12384'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>  <a href='https://huggingface.co/datasets/xiang709/VRSBench'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'>
 
+🔥 **New dataset released!** We release [VRSBench-SAR](https://huggingface.co/datasets/xiang709/VRSBench-SAR), image-text annotations for [SARDet-100k](https://github.com/zcablii/SARDet_100K) test set.
+
 ## Related Projects
 
 <font size='5'>**RSGPT: A Remote Sensing Vision Language Model and Benchmark**</font>
@@ -123,6 +125,7 @@ Note: part of the images are borrowed from [DOTA](https://captain-whu.github.io/
 Our VRSBench dataset is built based on [DOTA-v2](https://captain-whu.github.io/DOTA/dataset.html) and [DIOR](https://gcheng-nwpu.github.io/#Datasets) datasets.
 
 We are thankful to [LLaVA-1.5](https://github.com/haotian-liu/LLaVA), [MiniGPT-v2](https://github.com/Vision-CAIR/MiniGPT-4), [Mini-Gemini](https://github.com/dvlab-research/MGM), and [GeoChat](https://github.com/mbzuai-oryx/GeoChat) for releasing their models and code as open-source contributions.
+
 
 
 
